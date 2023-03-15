@@ -1,0 +1,225 @@
+.logo {
+  width: 85px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: #055999;
+  padding: 10px 20px;
+}
+.circle-icon {
+  background: #ffffff;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px white solid;
+  text-align: center;
+  line-height: 22px;
+  position: relative;
+  top: -10px;
+}
+.circle-icon .inside {
+  position: absolute;
+  left: 1px;
+}
+.circle-icon .inside .bi {
+  color: #055999;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.circle-icon:hover {
+  background: skyblue;
+  color: #f5e0e0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.link {
+  color: #fff;
+}
+
+.qwe {
+  height: 350px;
+  width: 350px;
+}
+
+.link:hover {
+  color: red;
+}
+
+.bg1 {
+  font-size: 14px;
+  line-height: 22px;
+  background: #055999;
+}
+
+.list {
+  list-style: none;
+  display: inline !important;
+}
+
+.d-block {
+  height: 450px;
+}
+
+.abc, .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev, .navbar-nav .nav-link.active, .navbar-expand-lg .navbar-nav .nav-link:hover {
+  background: #055999;
+  color: white;
+}
+
+.box {
+  background: #efefef;
+  padding: 30px 20px;
+  border: 1px solid #efefef;
+}
+.box:hover {
+  border: 1px solid #055999;
+  background: white;
+}
+
+.cart { /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.login {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cart3 {
+  padding: 10px 5px;
+}
+
+.mesandipb {
+  background: #fff;
+  color: black;
+  text-align: center;
+}
+
+.habu {
+  width: 550px;
+  height: 350px;
+}
+
+.def {
+  width: 550px;
+  height: 400px;
+}
+
+.team {
+  background-color: #fff;
+  color: #1B1B1B;
+}
+
+.owl-nav {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+.clients img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+.clients img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+footer {
+  background: rgb(230, 229, 229);
+  color: #1B1B1B;
+}
+footer ul {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+footer ul li {
+  line-height: 32px;
+}
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.line ul {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+.line ul li {
+  line-height: 32px;
+}
+.line ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.inside .bi-cart4 {
+  color: #2056AE;
+}
+.inside .bi-cart4:hover {
+  border: 1px solid #055999;
+  background: whitesmoke;
+}
+
+.san {
+  text-align: center;
+}
+
+.raj {
+  padding-bottom: 5px;
+  padding-top: 50px;
+}
+
+.praku {
+  margin: 5px;
+  padding: 5px;
+  height: 210px;
+  width: 250px;
+  width: 250px;
+  height: 200px;
+  background-image: url(https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+  background-size: cover;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  -webkit-transform-origin: left-top;
+          transform-origin: left-top;
+}
+
+.praku:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.breadcrumbb {
+  background: #2056AE url(./img/SAIT\ Logo.jpg);
+  background-size: 23%;
+  background-position: right top;
+  padding: 25px;
+  background-repeat: no-repeat;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
