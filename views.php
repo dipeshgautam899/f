@@ -24,7 +24,7 @@ session_start();
       top: 90px;
       right: 0;
       bottom: 10px;
-      width: 337px;
+      width: 345px;
       padding: 1rem;
       background-color: #f8f9fa;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -63,9 +63,6 @@ session_start();
 </head>
 
 <body>
-
-
-
   <div class="container" style="margin-top: 50px;">
     <ul class="nav nav-tabs">
       <li class="active"><a data-toggle="tab" href="#category">Categories</a></li>
@@ -74,7 +71,7 @@ session_start();
       <li><a data-toggle="tab" href="#booktable">Book a Table</a></li>
     </ul>
     <div class="tab-content">
-      <div class="tab-pane fade in active" id="category">
+      <div id="category" class="tab-pane fade in active">
         <div class="row">
           <div class="col-md-3">
             <h3>Categories</h3>
@@ -174,11 +171,73 @@ session_start();
           </div>
         </div>
       </div>
-      <div class="tab-pane fade" id="overview">
+      <div id="overview" class="tab-pane fade">
         <h3>Overview</h3>
       </div>
-    </div>
-    
+      <div id="gallery" class="tab-pane fade">
+        <h3>Gallery</h3>
+      </div>
+      <div id="booktable" class="tab-pane fade">
+      
+      <div class="d-flex justify-content-center">
+        <div class="container">
+          <form>
+            <div class="form-group">
+              <div class="col-md-3">
+                <label>Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                
+              </div>
+            
+              <div class="col-md-3">
+                <label>Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+            
+              <div class="col-md-3">
+                <label>Number</label><br>                    
+                <input type="text" id="phonnumber" name="phonnumber" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-4">
+                <label for="checkin-date exampleFormControlInput1" class="form-label">Date</label><br>
+                <input type="date" id="checkin-date" name="checkin-date" class="form-control">
+              </div>
+              <div class="col-md-3">
+                <label>Number of pax</label><br>                    
+                <input type="number" id="phonnumber" name="noofpax" class="form-control">
+              </div>
+              <div class="col-md-3">
+                <label>Time</label><br>                    
+                <input type="time" id="phonnumber" name="time" class="form-control">
+              </div>
+            </div>  
+            <div class="form-group">
+              <div class="col-md-8">
+              <label >Additional information</label>
+              <textarea class="form-control" rows="4"></textarea> 
+              </div>   
+            </div>
+            <div class="form-group">
+              <div class="col-md-6">
+                <button type="submit" class="btn btn-primary mb-4 mt-4">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <style>
+      .d-flex .container {
+        margin-right: 350px;
+      }
+      </style>
+
+ 
+
+      </div>
+    </div>    
   </div>
 
   <div class="cart-container" id="cart">
@@ -301,11 +360,11 @@ session_start();
 
 
   <!-- jQuery library -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
   <!-- Latest compiled JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
   <!-- JavaScript code to handle the "Add to Cart" button click -->
