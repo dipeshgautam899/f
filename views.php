@@ -185,13 +185,13 @@ session_start();
             <div class="form-group">
               <div class="col-md-3">
                 <label>Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="email" class="form-control"  placeholder="Enter email">
                 
               </div>
             
               <div class="col-md-3">
-                <label>Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <label>Name</label>
+                <input type="text" class="form-control"  placeholder="name">
               </div>
             
               <div class="col-md-3">
@@ -221,7 +221,7 @@ session_start();
             </div>
             <div class="form-group">
               <div class="col-md-6">
-                <button type="submit" class="btn btn-primary mb-4 mt-4">Subscribe</button>
+                <button type="submit" class="btn btn-primary mb-4 mt-4">Submit</button>
               </div>
             </div>
           </form>
